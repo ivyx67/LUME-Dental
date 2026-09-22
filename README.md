@@ -1,2 +1,2 @@
-# LUM-Dental
+# LUME-Dental
 Gabinet stomatologiczny

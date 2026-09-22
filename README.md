@@ -1,3 +1,3 @@
 # LUME-Dental
 Project name: Gabinet stomatologiczny
-Autors: Julia Ignaczak, Marcel Maciak
+Autors: Julia Ignaczak, Marcel Maciak ; 

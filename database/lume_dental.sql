@@ -203,10 +203,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `surname`, `email`, `password`, `phone`, `role`, `active`, `created_at`) VALUES
-(1, 'Jan', 'Kowalski', 'jan.kowalski@example.com', 'test123', '501234567', 'client', 1, '2026-09-22 20:28:18'),
-(2, 'Anna', 'Nowak', 'anna.nowak@lume-dental.pl', 'test123', '502345678', 'employee', 1, '2026-09-22 20:28:18'),
-(3, 'Piotr', 'Wisniewski', 'piotr.wisniewski@lume-dental.pl', 'test123', '503456789', 'employee', 1, '2026-09-22 20:28:18'),
-(4, 'Admin', 'Lume', 'admin@lume-dental.pl', 'test123', '504567890', 'admin', 1, '2026-09-22 20:28:18');
+(1, 'Jan', 'Kowalski', 'jan.kowalski@example.com', '$2y$10$MDNdbdI0nhaXpy3BOo2vmu/fPUcqcf0lntEo1dFyNFBetM1elziw.', '501234567', 'client', 1, '2026-09-22 20:28:18'),
+(2, 'Anna', 'Nowak', 'anna.nowak@lume-dental.pl', '$2y$10$U6wjJH6FrNQaGTUITjuw6OWteVRX1I6pn0t0fTE5hX45A6k0FU5XS', '502345678', 'employee', 1, '2026-09-22 20:28:18'),
+(3, 'Piotr', 'Wisniewski', 'piotr.wisniewski@lume-dental.pl', '$2y$10$YdqJE3vvN0ScbsgFtevSUOZBL7YOUwJ2NK2SKBgZZYS6Zqs.dFO/m', '503456789', 'employee', 1, '2026-09-22 20:28:18'),
+(4, 'Admin', 'Lume', 'admin@lume-dental.pl', '$2y$10$F51fHIInfxozMuRGBHeAG./w6dVoxSjDxTt6N9DIgSg0V8zx4/qw6', '504567890', 'admin', 1, '2026-09-22 20:28:18');
 
 --
 -- Indexes for dumped tables

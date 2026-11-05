@@ -19,4 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
             button.setAttribute('aria-label', showPassword ? 'Ukryj hasło' : 'Pokaż hasło');
         });
     });
+
+    document.querySelectorAll('form[data-confirm]').forEach((form) => {
+        form.addEventListener('submit', (event) => {
+            if (!window.confirm(form.dataset.confirm)) {
+                event.preventDefault();
+            }
+        });
+    });
 });

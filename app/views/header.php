@@ -10,7 +10,7 @@ $flashMessage = take_flash();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f4faf9">
     <title><?= e($pageTitle) ?> | Lume Dental</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css?v=<?= e((string) filemtime(dirname(__DIR__, 2) . '/css/style.css')) ?>">
     <script src="../js/script.js" defer></script>
 </head>
 <body>

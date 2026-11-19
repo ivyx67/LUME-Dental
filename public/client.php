@@ -19,9 +19,11 @@ require dirname(__DIR__) . '/app/views/header.php';
                 <a class="quiet-link" href="<?= e(app_url('profile.php')) ?>">Edytuj profil <span aria-hidden="true">↗</span></a>
             </article>
             <article class="dashboard-card next-step-card">
-                <span class="card-icon">✳</span><span class="eyebrow">NA DOBRY POCZĄTEK</span><h2>Twoja troska, w jednym miejscu.</h2>
-                <p>W kolejnej części projektu dodamy rezerwację terminów oraz listę Twoich wizyt.</p>
-                <a class="quiet-link" href="<?= e(app_url('index.php')) ?>#oferta">Poznaj ofertę gabinetu <span aria-hidden="true">↗</span></a>
+                <span class="card-icon">✳</span><span class="eyebrow">REZERWACJE ONLINE</span><h2>Umów dogodną wizytę.</h2>
+                <p>Wybierz usługę, pracownika i jeden z dostępnych terminów.</p>
+                <a class="quiet-link" href="<?= e(app_url('booking.php')) ?>">Zarezerwuj wizytę <span aria-hidden="true">↗</span></a>
+                <p><a class="quiet-link" href="<?= e(app_url('client_reservations.php')) ?>">Zobacz moje rezerwacje <span aria-hidden="true">↗</span></a></p>
+                <a class="quiet-link" href="<?= e(app_url('services.php')) ?>">Poznaj ofertę gabinetu <span aria-hidden="true">↗</span></a>
             </article>
         </div>
     </div>

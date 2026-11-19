@@ -25,7 +25,7 @@ $flashMessage = take_flash();
             <span></span><span></span><span></span>
         </button>
         <nav class="main-navigation" id="main-navigation" aria-label="Nawigacja główna">
-            <a href="<?= e(app_url('index.php')) ?>#oferta">Oferta</a>
+            <a href="<?= e(app_url('services.php')) ?>">Oferta</a>
             <a href="<?= e(app_url('index.php')) ?>#o-nas">O nas</a>
             <?php if ($user !== null): ?>
                 <a href="<?= e(app_url('dashboard.php')) ?>">Mój panel</a>

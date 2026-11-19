@@ -73,7 +73,7 @@ require dirname(__DIR__) . '/app/views/header.php';
                 <?php endforeach; ?>
             </div>
         <?php endif; ?>
-        <div class="section-cta"><span>Masz pytania? Z chęcią pomożemy.</span><a class="quiet-link" href="<?= e(app_url('register.php')) ?>">Załóż konto i poznaj nas bliżej <span aria-hidden="true">↗</span></a></div>
+        <div class="section-cta"><span>Masz pytania? Z chęcią pomożemy.</span><a class="quiet-link" href="<?= e(app_url('services.php')) ?>">Zobacz pełną ofertę i szczegóły usług <span aria-hidden="true">↗</span></a></div>
     </div>
 </section>
 <section class="about-section" id="o-nas">

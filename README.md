@@ -66,6 +66,10 @@ Powyższe hasła są ustawiane przez przykładowy plik SQL przy tworzeniu nowej 
 - Trzy role: klient, pracownik i administrator.
 - Edycja podstawowych danych profilu.
 - Publiczna lista aktywnych usług.
+- Publiczny katalog usług z filtrowaniem po kategorii, szczegółami i informacją o dostępności.
+- Rezerwacja klienta w kolejności usługa → pracownik → data → godzina → potwierdzenie; dostępność uwzględnia grafik, czas trwania usługi i nakładanie wizyt.
+- Panel klienta z przyszłymi i zakończonymi/anulowanymi wizytami oraz anulowaniem własnej przyszłej rezerwacji.
+- Panel pracownika z dzisiejszym grafikiem, przyszłymi wizytami, historią, szczegółami i zmianą statusu własnych wizyt.
 - Panel administratora z liczbą klientów, pracowników, usług i rezerwacji.
 - Dodawanie, edycja i usuwanie kategorii.
 - Dodawanie i edycja usług, w tym ceny, czasu trwania i aktywności. Usługi używane przez rezerwacje można bezpiecznie dezaktywować.
